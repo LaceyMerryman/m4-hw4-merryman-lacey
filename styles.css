@@ -1,5 +1,4 @@
 body, a {
-    text-align: center;
     font-family: 'Roboto', sans-serif;
     background-color: whitesmoke;
     color: black;
@@ -14,6 +13,7 @@ header {
 
 header > nav {
     word-spacing: 10px;
+    text-align: center;
 }
 
 h1 {
