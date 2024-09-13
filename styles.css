@@ -1,23 +1,43 @@
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: whitesmoke;
-    color: grey;
+    color: black;
     max width: 900px;
     margin: auto;
 }
 
-header{
+header {
     margin: 35px 0;
     font-size: 20px;
 }
 
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
 section.TourDates {
+    color: white;
     text-align: center;
     background-image: url("https://edm.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_xy_center%2Cq_auto:good%2Cw_1200%2Cx_3084%2Cy_922/MjA2NjY2NTE0MTAxNzczNTE2/fred-again_skyler-greene-for-insomniac-events.jpg");
-    padding: 50px 0 100px;
+    padding: 50px 0;
     font-size: 50px;
-    
 }
 
 a {
     color: black;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+aside nav a {
+    display: block;
+    text-align: center;
+}
+
+footer {
+    margin: 50px 0;
+    text-align: center;
 }
