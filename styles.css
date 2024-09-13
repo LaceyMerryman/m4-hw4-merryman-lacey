@@ -32,6 +32,11 @@ section.TourDates {
     font-size: 50px;
 }
 
+a:link {
+    color: white;
+    background-color: none;
+}
+
 section.LiveDJSet {
     margin: auto;
     text-align: center;
